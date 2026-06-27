@@ -3,7 +3,7 @@ using namespace std;
 
 int lengthOfLongestSubstring(string s) {
     // Nếu chuỗi rỗng thì thoát
-    if (s.empty()) return -1;
+    if (s.empty()) return 0;
     // Tạo mảng để lưu trữ vị trí gần nhất lặp lại trong chuỗi của một ký tự bất kỳ
     int last_seen[128];
     for (int i = 0; i < 128; i ++) last_seen[i] = -1;

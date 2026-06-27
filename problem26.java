@@ -3,7 +3,7 @@ import java.util.*;
 public static int removeDuplicates(int[] nums) {
     // Nếu mảng rỗng thì dừng chương trình
     if (nums.length == 0) {
-        return -1;
+        return 0;
     }
     // Trường hợp còn lại
     int count = 0;
